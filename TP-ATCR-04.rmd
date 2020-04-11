@@ -41,6 +41,39 @@ Hiver 2020
 
 
 
-```{}
 
+\newpage
+# Client 1 : 
+## Question 1 : 
+Notre chère Virginie aura droit à un remplacement de revenu de 17%. Ce montant est obtenu avec les calculs suivants. 
+```{}
+x+y
 ```
+
+Tel qu’indiqué dans les sous-titres des calculs, Virginie aura des remplacements de revenus de plusieurs sources différentes. D’abord, elle recevra évidemment sa rente du RRQ. Toutefois, comme notre amie a pris sa retraite avant d’atteindre l’ANR de 65 ans, elle voit sa rente être réduite. 
+
+\vspace {40pt}
+
+## Question 2 : 
+Dans cette situation, Virginie aura un remplacement de revenu de retraite de 57% de sa dernière année de salaire. Il ne faut pas se tromper et croire que son revenu de la RRQ variera dans le temps, autre que l’indexation, i.e., la réduction actuarielle ne change pas puisqu’elle a atteint l’âge de 65 ans. Dans le cadre du TP, on considère donc que les rentes du RRQ sont indexées selon l’inflation. Toutefois, ce qui diffère de la question 1, c’est qu’à partir de l’âge de 65 ans, Virginie est admissible à recevoir la PSV, et, selon son revenu, le SRG. Dans son cas, elle est admissible aux deux programmes. 
+
+\vspace {40pt}
+
+## Question 3 : 
+Dans ce cas, Virginie verrait sa rente remplacer 52% de son revenu. Dans cette situation, aucune réduction actuarielle ne s’applique, puisque Virginie a pris sa retraite à 65 ans. Encore une fois, elle est admissible à recevoir la PSV et le SRG. Toutefois, en raison de ses revenus plus élevés, sa rente de la SRG sera réduite selon le calcul suivant :
+
+\vspace {40pt} 
+
+## Question 4 : 
+1. D’abord, le RRQ prévoit une réduction actuarielle si une personne prend sa retraite avant l’ANR (65 ans). Cette réduction varie de 0,5% à 0,6% selon le revenu. Les prestations sont toutes actuariellement équivalentes, mais une demande précoce offrira une rente réduite, puisqu’elle sera versée sur une plus longue période.  
+2. La variation de la période cotisable aura également un impact sur le niveau de la rente. En effet, la période cotisable (selon 3 conditions énoncées en classe) se termine le mois précédant le versement d’une rente de retraite. Ceci étant dit, la période cotisable d’une personne qui prend sa retraite è 65 ans (et demande l’obtention de ses rentes RRQ) sera évidemment plus longue que celle de la personne qui prend sa retraite è 60 ans. Tel qu’énoncé dans les calculs des questions précédentes, le calcul de la rente est fonction de la période cotisable. L’impact sera donc que lors du retranchement de certains mois (les 15% de mois aux revenus les plus faibles), le 15% représente évidemment plus de mois lorsque la période est plus longue, donc il sera possible de retrancher plus de mois à faible revenus, ce qui a pour effet d’augmenter davantage la rente lorsque la retraite est prise à 65 ans. L’ajout de quelques mois à la période cotisable peut aussi permettre d’ajouter quelques mois afin de pouvoir en retirer quelques autres à faible revenus, en demeurant au-dessus du minimum de 120 mois.   
+3. Dans le même ordre d’idée qu’au point 2, une retraite à 65 ans ajoutera 5 années de salaire à considérer lors du calcul des prestations. Une personne avec un salaire constamment croissant verra donc la moyenne de ses salaires ajustés augmentés si elle travaille jusqu’à 65 ans versus la personne qui se retire à 60 ans. L’inverse est aussi vrai, alors qu’une personne qui opte pour un travail à tâche réduite pour les dernières années de sa carrière peut voir son salaire annuel grandement réduit, ce qui ajouterait des années de petit salaire au calcul de la prestation.  
+4. Finalement, dans le calcul des prestations, on ajuste les salaires antérieurs avec un calcul simple utilisant la moyenne des 5 derniers MGA à l’âge de la retraite. Prendre sa retraite 5 ans plus tard offrira donc une moyenne plus élevée, puisque les MGA sont indexés annuellement. Une retraite plus tard offrira donc un calcul plus avantageux pour le retraité lors de l’ajustement de ses GANA. 
+
+\vspace {40pt}
+
+## Question 5 :
+1. D’abord, elle n’a pas à remplacer 100% de ses revenus avant retraite, car une partie de ce montant était réservé à l’épargne retraite, donc à sa retraite, elle n’a plus à épargner, c’est le temps de dépenser.  
+2. Elle n’a pu à couvrir des frais de déplacements pour se rendre au travail.  
+3. Sa maison est considérée comme un actif, ce qui laisse croire qu’elle a donc finie de la payer. Cela signifie donc la fin des dépenses hypothécaires, elle a donc besoin de moins de revenus par la suite.  
+4. Ses dépenses générales risques simplement d’être réduites, que ce soit qu’elle achète moins de vêtements de travail, ou parce qu’elle bénéficie du rabais de l’âge d’or, elle aura certainement besoin de moins d’argent pour couvrir ses dépenses réduites. 
