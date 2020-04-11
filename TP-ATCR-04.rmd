@@ -6,7 +6,7 @@ output: pdf_document
 Équipe no 04
 
 Charles-Antoine Fecteau
-(m111264468)
+(111264468)
 
 Mathieu Giguère
 (111255906)
