@@ -5,16 +5,20 @@ output: pdf_document
 \begin{center}
 Équipe no 04
 
-Charles-Antoine Fecteau
+Charles-Antoine Fecteau  
+
 (111264468)
 
-Mathieu Giguère
+Mathieu Giguère  
+
 (111255906)
 
-Tristan Métivier-Dionne
+Tristan Métivier-Dionne  
+
 (111264240)
 
-Thomas Paré-Bourque
+Thomas Paré-Bourque  
+
 (111260133)
 
 \vspace{80pt}
