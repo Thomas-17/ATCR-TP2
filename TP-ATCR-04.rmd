@@ -49,12 +49,23 @@ Hiver 2020
 \newpage
 # Client 1 : 
 ## Question 1 : 
-Notre chère Virginie aura droit à un remplacement de revenu de 17%. Ce montant est obtenu avec les calculs suivants. 
-```{}
-x+y
-```
+Dans cette situation, notre chère Virginie aura droit à un remplacement de revenu de 17%. Ce montant, qui peut sembler faible, provient de deux rentes, soit sa RRB et sa rente du régime supplémentaire 1 de la RRQ.  Ce faible montant s'explique par plusieurs facteurs. D'abord, pour établir le niveau de sa rente de base, il fallait établir sa période cotisable, retirer les années où elle recevait une allocation familliale, et ensuite retirer 15% de ses années de plus faible revenus. Toutefois, malgré ces retraits, il reste encore certaines années de revenus nuls dans la moyenne de ses gains ajustés, ce ui la fait diminuer. Ensuite, elle prend sa retraite à 60 ans, donc 60 mois (5 ans) avant l'âge normal de la retraite (65 ans). Cette retraite précaire introduit donc une réduction actuarielle dans le calcul de la rente, soit un facteur de 0,55% par mois. Les calculs sont donc les suivants 
+  
+$MGA5$ = Moyenne des 5 MGA des années suivant la retraite 
+$Moyenne$ = Moyenne des salaires ajustés admissibles*
+$x$ = rente annuelle à 60 ans
+$$
 
-Tel qu’indiqué dans les sous-titres des calculs, Virginie aura des remplacements de revenus de plusieurs sources différentes. D’abord, elle recevra évidemment sa rente du RRQ. Toutefois, comme notre amie a pris sa retraite avant d’atteindre l’ANR de 65 ans, elle voit sa rente être réduite. 
+$$
+
+*Le salaire ajusté est obtenu à l'aide de la formule suivante:
+
+Puis, le calcul de sa rente provenant du régime supplémentaire est le suivant : 
+$$
+
+$$
+ 
+Le remplacement de salaire de Virginie sera donc de 17% par rapport à sa dernière année de travail.
 
 \vspace {40pt}
 
