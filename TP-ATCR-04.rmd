@@ -1,0 +1,46 @@
+---
+title: "Calculs de prestations"
+output: pdf_document
+---
+\begin{center}
+Équipe no 04
+
+Charles-Antoine Fecteau
+(m111264468)
+
+Mathieu Giguère
+(111255906)
+
+Tristan Métivier-Dionne
+(111264240)
+
+Thomas Paré-Bourque
+(111260133)
+
+\vspace{80pt}
+
+Analyse et traitement collectif du risque
+
+ACT-1005
+
+\vspace{80pt}
+
+Calculs de prestations 
+
+(Travail pratique)
+
+\vspace{80pt}
+
+École d'actuariat 
+
+Université Laval
+
+Hiver 2020
+
+\end{center}
+
+
+
+```{}
+
+```
