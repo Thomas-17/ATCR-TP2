@@ -60,7 +60,7 @@ $$
 
 *Le salaire ajusté est obtenu à l'aide de la formule suivante:
 
-Puis, le calcul de sa rente provenant du régime supplémentaire est le suivant : 
+Puis, Virginie a eu l'opportunité de cotiser durant une année au régime supplémentaire 1 de la RRQ, qui a été introduit en 2019. Ce régime a pour but de remplacer un 8,33% de revenu supplémentaire pour les gains sous le MGA. Toutefois, pour éviter une autre inégalité intergénérationnelle, ce régime est proportionnel à la participation du rentier. Une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Pour notre pauvre Virginie, comme elle n'a cotisée qu'une année, elle obtiendra 1/40*8,33% de sa somme des gains admissibles Le calcul est explicité ci-dessous. La réduction actuarielle est appliquée de la même façon que pour le régime de base.
 $$
 
 $$
@@ -70,12 +70,22 @@ Le remplacement de salaire de Virginie sera donc de 17% par rapport à sa derni�
 \vspace {40pt}
 
 ## Question 2 : 
-Dans cette situation, Virginie aura un remplacement de revenu de retraite de 57% de sa dernière année de salaire. Il ne faut pas se tromper et croire que son revenu de la RRQ variera dans le temps, autre que l’indexation, i.e., la réduction actuarielle ne change pas puisqu’elle a atteint l’âge de 65 ans. Dans le cadre du TP, on considère donc que les rentes du RRQ sont indexées selon l’inflation. Toutefois, ce qui diffère de la question 1, c’est qu’à partir de l’âge de 65 ans, Virginie est admissible à recevoir la PSV, et, selon son revenu, le SRG. Dans son cas, elle est admissible aux deux programmes. 
+Dans cette situation, il ne faut pas se tromper et croire que son revenu de la RRQ variera dans le temps, autre que par l’indexation, i.e., la réduction actuarielle ne change pas puisqu’elle a atteint l’âge de 65 ans. Dans le cadre du TP, on considère donc que les rentes du RRQ sont indexées selon l’inflation, donc de 2,75% à chaque année. Les calculs sont donc indentiques à la question 1, à part l'ajout de la rente SRG et PSV. En effet, l'un des critèrespour recevoir la SRG est de recevoir la PSV, qui nécessite d'avoir 65 ans. (On constate à partir des informations données sur Virginie qu'elle remplit tous les autres critères d'admissibilité à la PSV). Dans son cas, elle est également admissible au SRG, car son revenu est considéré comme faible. Les montants pour ces deux rentes sont fixes, mais sont susceptibles d'être réduits, et les calculs suivants montrent que c'est d'ailleurs le cas pour la SRG.
+
+Le calcul de sa rente S1 est indentique à celui de la question précédente. La seule différence, c'est que Virginie reçoit maintenant la SRG, alors le montant de sa rente du S1 sera utilisé dans le calcul de sa réduction SRG. 
+$$
+$$
+
+Virginie aura donc un remplacement de revenu de retraite de 58% de sa dernière année de salaire. 
 
 \vspace {40pt}
 
 ## Question 3 : 
-Dans ce cas, Virginie verrait sa rente remplacer 52% de son revenu. Dans cette situation, aucune réduction actuarielle ne s’applique, puisque Virginie a pris sa retraite à 65 ans. Encore une fois, elle est admissible à recevoir la PSV et le SRG. Toutefois, en raison de ses revenus plus élevés, sa rente de la SRG sera réduite selon le calcul suivant :
+
+ Dans cette situation, aucune réduction actuarielle ne s’applique, puisque Virginie a pris sa retraite à 65 ans. Encore une fois, elle est admissible à recevoir la PSV et le SRG. Toutefois, en raison de ses revenus plus élevés, sa rente de la SRG sera réduite selon les calculs indiqués plus bas. Il peut sembler anormal que ce pourcentage de remplacement de revenu soit inférieur à celui de la question 2, car Virginie ne subit pas de réduction actuarielle, et elle a cotisé 5 ans de plus au régime S1. Toutefois, ce qui brouille les cartes, c'est que le pourcentage est calculé en fonction de son dernier salaire annuel, et son salaire à 64 ans est 1,0275^4 fois plus élevé que son salaire à 59 ans, donc le dénominateur du calcul est plus élevé, ce qui réduit le pourcentage, malgré que sa rente est supérieure.
+$$
+$$ 
+Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu.
 
 \vspace {40pt} 
 
@@ -92,3 +102,17 @@ Dans ce cas, Virginie verrait sa rente remplacer 52% de son revenu. Dans cette s
 2. Elle n’a pu à couvrir des frais de déplacements pour se rendre au travail.  
 3. Sa maison est considérée comme un actif, ce qui laisse croire qu’elle a donc finie de la payer. Cela signifie donc la fin des dépenses hypothécaires, elle a donc besoin de moins de revenus par la suite.  
 4. Ses dépenses générales risques simplement d’être réduites, que ce soit qu’elle achète moins de vêtements de travail, ou parce qu’elle bénéficie du rabais de l’âge d’or, elle aura certainement besoin de moins d’argent pour couvrir ses dépenses réduites. 
+
+\vspace{50 pt}
+
+# Client 2
+
+## Question 6
+Dans le cas de notre ami Philippe, il y a plusieurs facteurs à considérer. Les principes de calculs de base pour la RRB et le Régime S1 sont les mêmes que pour Virginie, donc à des fins de simplicité, ils ne seront pas réexprimés. D'abord, Philippe n'a jamais reçu de rentes d'invalidité ou d'autres types semblables, donc les seuls salaires retirés de sa période cotisable seront les 15% des années au plus petit revenu.   
+Par la suite, on doit considérer le fait que Philippe a été marié à Eliot durant 15 ans, et dans le calcul de la rente du RRQ de quelqu'un étant marié, il y a un ajustement effectué. Malgré que le mariage homosexuel ne soit légal au Canada que depuis 2005, nous considérons que Philippe et Eliot étaient mariés selon la loi, donc que le calcul du RRQ s'applique de façon usuelle. Cet ajustement est simple, on prend les gains admissibles de chacun des conjoints pour l'année X, et on considère que chacun a cotisé la moyenne des deux. À noter que cet ajustement est fait automatiquement dans le cas d'un mariage, sauf avis contraire de l'un des deux mariés. *OU LES DEUX??* Cet ajustement est effectif pour les années d'union uniquement. Ce sont donc les salaires ajustés selon le salaire de Eliot, puis ajusté en dollars d'aujourd'hui (calcul avec les MGA) qui seront utilisés dans le calcul de sa rente.  
+Philippe subira une réduction actuarielle selon le même principe que Virginie, soit 0,55% par mois avant 65 ans, tant pour la RRB que le S1. Tel qu'indiqué, les principes de calculs sont les mêmes que ceux utilisés pour Virginie, tant pour la RRB que le S1 également. Les calculs sont indiqués plus bas.  
+Dans cette situation, il ne faut pas oublier que Philippe a eu la chance d'avoir un régime complémentaire de retraite avec son emploi. Il s'agit d'un régime à prestations déterminées, qui verse une rente de la façon suivante : 1,35% * moyenne des 5 meilleurs salaires annuels * nombre d'années de service. Sa rente n'est pas réduite, car il a travaillé plus de 35 ans pour cet employeur. Les actifs de Philippe ne sont pas considérés ici, car rien n'indique qu'il les vendra ou quoique ce soit. Philippe ne reçoit pas de rente pour la PSV ou le SRG, car son revenu est trop élevé. Les calculs sont les suivants :
+$$
+$$
+
+Philippe aura donc un remplacement de 73% de son dernier salaire pour sa première année de retraite.
