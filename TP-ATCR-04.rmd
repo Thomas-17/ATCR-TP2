@@ -104,10 +104,28 @@ Virginie aura donc un remplacement de revenu de retraite de 58% de sa dernière 
 
 ## Question 3 : 
 
- Dans cette situation, aucune réduction actuarielle ne s’applique, puisque Virginie a pris sa retraite à 65 ans. Encore une fois, elle est admissible à recevoir la PSV et le SRG. Toutefois, en raison de ses revenus plus élevés, sa rente de la SRG sera réduite selon les calculs indiqués plus bas. Il peut sembler anormal que ce pourcentage de remplacement de revenu soit inférieur à celui de la question 2, car Virginie ne subit pas de réduction actuarielle, et elle a cotisé 5 ans de plus au régime S1. Toutefois, ce qui brouille les cartes, c'est que le pourcentage est calculé en fonction de son dernier salaire annuel, et son salaire à 64 ans est 1,0275^4 fois plus élevé que son salaire à 59 ans, donc le dénominateur du calcul est plus élevé, ce qui réduit le pourcentage, malgré que sa rente est supérieure.
+ Dans cette situation, aucune réduction actuarielle ne s’applique, puisque Virginie a pris sa retraite à 65 ans. Encore une fois, elle est admissible à recevoir la PSV et le SRG. Toutefois, en raison de ses revenus plus élevés, sa rente de la SRG sera réduite selon les calculs indiqués plus bas. Il peut sembler anormal que ce pourcentage de remplacement de revenu soit inférieur à celui de la question 2, car Virginie ne subit pas de réduction actuarielle, et elle a cotisé 5 ans de plus au régime S1. Toutefois, ce qui brouille les cartes, c'est que le pourcentage est calculé en fonction de son dernier salaire annuel, et son salaire à 64 ans est 1,0275^4 fois plus élevé que son salaire à 59 ans, donc le dénominateur du calcul est plus élevé, ce qui réduit le pourcentage, malgré que sa rente est supérieure. Les calculs ci-dessous montrent les différents montants qu'elle recevra à la retraite :
+ 
+ La rente de la PSV reste la même qu'à la question 2 soit la PSV maximale indéxé sur 6 ans. Le montant sera de 8493\$.
+ 
+La rente pour le régime de base de la RRQ est calculée de la même façon qu'à la première question. Par contre, le montant de la moyenne des salaires ajustés est calculé sur une nouvelle période cotisable qui est de 40 ans après exclusion. De plus, l'ajustement des salaires est fait avec des MGA plus élevés que ceux de la question 1 et comme dit plus haut il n'y a plus de réduction actuarielle. La formule utilisée est la suivante :
 $$
+rente.RRB = Moyenne*\frac{25}{100}
+$$
+**La terminologie est expliquée plus haut.
+La rente qu'elle recevra du régime de base est donc de 13991\$ considérant que la  $Moyenne$ est de 55962\$.
+Pour la rente du régime S1 de la RRQ, une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Comme elle a cotisé pour 6 ans, elle recevra 6/40 (du 8,33% de remplacement donné par le S1) et ça sans réduction actuarielle. De plus, comme il est mentionné sur le site de Retraite Québec, il y a des taux d'ajustement à appliquer sur les salaires des années 2019 à 2022 soient 0,15 pour 2019, 0,3 pour 2020, 0,5 pour 2021 et 0,75 pour 2022. Le calcul de la rente du régime S1 sera le suivant:
+ 
+$$
+rente.S1= \frac{(0,15 * Sal.aj2019+0,3 * Sal.aj2020+0,5 * Sal.aj2021+0,75 * Sal.aj2022+ Sal.aj2023+ Sal.aj2024)*8,33}{100*40}
 $$ 
-Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu.
+**Sal.aj signifie salaire ajusté.
+
+La rente qu'elle recevra du régime S1 est de 408\$ avec les salaires ajustés sont tous de 52 945, car les salaires augmentent avec l'inflation tout comme le MGA.
+
+Pour le calcul de la rente de la SRG, le calcul reste le même que la question 2. La rente de la SRG sera de 7236\$ suite au retrait du 1\$ par 2\$ de revenu.
+
+Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu. Le calcul de remplacement de revenu reste le même qu'à la question 2 mais en utilisant le salaire qu'elle a gagné en 2024 qui est de 54361\$.
 
 \vspace {40pt} 
 
@@ -133,11 +151,35 @@ Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu.
 
 ## Question 6
 Dans le cas de notre ami Philippe, il y a plusieurs facteurs à considérer. Les principes de calculs de base pour la RRB et le Régime S1 sont les mêmes que pour Virginie, donc à des fins de simplicité, ils ne seront pas réexprimés. D'abord, Philippe n'a jamais reçu de rentes d'invalidité ou d'autres types semblables, donc les seuls salaires retirés de sa période cotisable seront les 15% des années au plus petit revenu.   
-Par la suite, on doit considérer le fait que Philippe a été marié à Eliot durant 15 ans, et dans le calcul de la rente du RRQ de quelqu'un étant marié, il y a un ajustement effectué. Malgré que le mariage homosexuel ne soit légal au Canada que depuis 2005, nous considérons que Philippe et Eliot étaient mariés selon la loi, donc que le calcul du RRQ s'applique de façon usuelle. Cet ajustement est simple, on prend les gains admissibles de chacun des conjoints pour l'année X, et on considère que chacun a cotisé la moyenne des deux. À noter que cet ajustement est fait automatiquement dans le cas d'un mariage, sauf avis contraire de l'un des deux mariés. *OU LES DEUX??* Cet ajustement est effectif pour les années d'union uniquement. Ce sont donc les salaires ajustés selon le salaire de Eliot, puis ajusté en dollars d'aujourd'hui (calcul avec les MGA) qui seront utilisés dans le calcul de sa rente.  
-Philippe subira une réduction actuarielle selon le même principe que Virginie, soit 0,55% par mois avant 65 ans, tant pour la RRB que le S1. Tel qu'indiqué, les principes de calculs sont les mêmes que ceux utilisés pour Virginie, tant pour la RRB que le S1 également. Les calculs sont indiqués plus bas.  
-Dans cette situation, il ne faut pas oublier que Philippe a eu la chance d'avoir un régime complémentaire de retraite avec son emploi. Il s'agit d'un régime à prestations déterminées, qui verse une rente de la façon suivante : 1,35% * moyenne des 5 meilleurs salaires annuels * nombre d'années de service. Sa rente n'est pas réduite, car il a travaillé plus de 35 ans pour cet employeur. Les actifs de Philippe ne sont pas considérés ici, car rien n'indique qu'il les vendra ou quoique ce soit. Philippe ne reçoit pas de rente pour la PSV ou le SRG, car il n'a pas 65 ans. À l'atteinte de ses 65 ans, il ne recevra pas de SRG, car son revenu est trop élevé. Les calculs sont les suivants :
-
+Par la suite, on doit considérer le fait que Philippe a été marié à Eliot durant 15 ans, et dans le calcul de la rente du RRQ de quelqu'un étant marié, il y a un ajustement effectué. Malgré que le mariage homosexuel ne soit légal au Canada que depuis 2005, nous considérons que Philippe et Eliot étaient mariés selon la loi, donc que le calcul du RRQ s'applique de façon usuelle. Cet ajustement est simple, on prend les gains admissibles de chacun des conjoints pour l'année X, et on considère que chacun a cotisé la moyenne des deux. À noter que cet ajustement est fait automatiquement dans le cas d'un mariage, sauf si renonciation au divorce, et rien n'indique que nos deux amis ont renoncé. Cet ajustement est effectif pour les années d'union uniquement. Ce sont donc les salaires ajustés selon le salaire de Eliot, puis ajusté en dollars d'aujourd'hui (calcul avec les MGA) qui seront utilisés dans le calcul de sa rente. Pour mieux expliciter les calculs, voici comment le calcul du salaire partagé pendant cette période a été fait:
 $$
+SalairePartagé= \frac{SalairePhilippe+SalaireEliot}{2}
 $$
 
-Philippe aura donc un remplacement de 73% de son dernier salaire pour sa première année de retraite.
+
+Philippe subira une réduction actuarielle selon le même principe que Virginie, soit 0,55% par mois avant 65 ans, tant pour la RRB que le S1. Tel qu'indiqué, les principes de calculs sont les mêmes que ceux utilisés pour Virginie, tant pour la RRB que le S1 également. Les calculs pour les rentes sont les suivants : 
+
+
+$$
+rente.RRB = Moyenne*\frac{25}{100}*(1-\frac{0,55*60}{100})
+$$
+**La terminologie est la même qu'à la question 1.
+La rente de la RRB sera de 8522\$ et la $Moyenne$ est de 50880\$
+
+
+$$
+rente.S1= 0,15 * Salaire.ajusté2019*(1-\frac{0,55*60}{100})*\frac{8,33}{100*40}
+$$
+
+La rente de la S1 sera de 10$ et le salaire ajusté pour 2019 est de 47491\$.
+
+Dans cette situation, il ne faut pas oublier que Philippe a eu la chance d'avoir un régime complémentaire de retraite avec son emploi. Il s'agit d'un régime à prestations déterminées, qui verse une rente de la façon suivante : 
+$$
+rente.RCR= \frac{1,35*Moyenne.5.Meilleurs.Salaires*Nombres.Années.Service}{100}
+$$
+
+Lq rente du RCR est de 26871\$ parce que son nombre d'année de service est de 42 ans et la moyenne de ses 5 meilleurs salaires est de 47392\$. Sa rente n'est pas réduite, car il a travaillé plus de 35 ans pour cet employeur. 
+
+Les actifs de Philippe ne sont pas considérés ici, car rien n'indique qu'il les vendra ou quoique ce soit. Philippe ne reçoit pas de rente pour la PSV ou le SRG, car il n'a pas 65 ans. À l'atteinte de ses 65 ans, il ne recevra pas de SRG, car son revenu est trop élevé.
+
+Philippe aura donc un remplacement de 73% de son dernier salaire pour sa première année de retraite. Le calcul reste le même qu'à la question 1, mais nous devons ajouté la valeur de la rente du RCR au numérateur. Le salaire de 2019 de Philipe est de 48761\$.
