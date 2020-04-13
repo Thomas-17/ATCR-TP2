@@ -52,31 +52,53 @@ Hiver 2020
 Dans cette situation, notre chère Virginie aura droit à un remplacement de revenu de 17%. Ce montant, qui peut sembler faible, provient de deux rentes, soit sa RRB et sa rente du régime supplémentaire 1 de la RRQ.  Ce faible montant s'explique par plusieurs facteurs. D'abord, pour établir le niveau de sa rente de base, il fallait établir sa période cotisable, retirer les années où elle recevait une allocation familliale, et ensuite retirer 15% de ses années de plus faible revenus. Toutefois, malgré ces retraits, il reste encore certaines années de revenus nuls dans la moyenne de ses gains ajustés, ce ui la fait diminuer. Ensuite, elle prend sa retraite à 60 ans, donc 60 mois (5 ans) avant l'âge normal de la retraite (65 ans). Cette retraite précaire introduit donc une réduction actuarielle dans le calcul de la rente, soit un facteur de 0,55% par mois. Les calculs sont donc les suivants 
   
 $MGA5$ = Moyenne des 5 MGA des années suivant la retraite 
+
+$MGA$ = Maximum des gains admissbles de l'année
+
 $Moyenne$ = Moyenne des salaires ajustés admissibles*
-$x$ = rente annuelle à 60 ans
-$$
+
 
 $$
+rente.RRB = Moyenne*\frac{25}{100}*(1-\frac{0,55*60}{100})
+$$
+où 0,55% (facteur de réduction actuarielle) est multiplié par 60, car elle prend ça retraite 60 mois à l'avance.
+
+Pour notre situation, la $Moyenne$ est de 47 674\$ . Donc, la rente de base de Virginie à la retraite sera de 11919\$.
 
 *Le salaire ajusté est obtenu à l'aide de la formule suivante:
-
-Puis, Virginie a eu l'opportunité de cotiser durant une année au régime supplémentaire 1 de la RRQ, qui a été introduit en 2019. Ce régime a pour but de remplacer un 8,33% de revenu supplémentaire pour les gains sous le MGA. Toutefois, pour éviter une autre inégalité intergénérationnelle, ce régime est proportionnel à la participation du rentier. Une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Pour notre pauvre Virginie, comme elle n'a cotisée qu'une année, elle obtiendra 1/40*8,33% de sa somme des gains admissibles Le calcul est explicité ci-dessous. La réduction actuarielle est appliquée de la même façon que pour le régime de base.
+$$
+Salaire.ajusté = (Salaire.non.ajusté) * \frac{MGA}{MGA5}
 $$
 
+
+Puis, Virginie a eu l'opportunité de cotiser durant une année au régime supplémentaire 1 de la RRQ, qui a été introduit en 2019. Ce régime a pour but de remplacer un 8,33% de revenu supplémentaire pour les gains sous le MGA. Toutefois, pour éviter une autre inégalité intergénérationnelle, ce régime est proportionnel à la participation du rentier. Une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Pour notre pauvre Virginie, comme elle n'a cotisée qu'une année, elle obtiendra 1/40*8,33% de sa somme des gains admissibles. De plus, le site de Retraite Québec, nous dit que nous devons ajuster son salaire pour l'année 2019 avec un taux de 0,15. Le calcul est explicité ci-dessous. La réduction actuarielle est appliquée de la même façon que pour le régime de base.
+$$
+rente.S1= 0,15 * Salaire.ajusté2019*(1-\frac{0,55*60}{100})*\frac{8,33}{100*40}
 $$
  
-Le remplacement de salaire de Virginie sera donc de 17% par rapport à sa dernière année de travail.
+ Le $Salaire.ajusté2019$ est de 46 229\$. La rente qu'elle recevra de son régime S1 est de 10\$.
+Le remplacement de salaire de Virginie sera donc de 17% par rapport à sa dernière année de travail et il est obtenu avec le calcul suivant : 
+$$
+RemplacementSalaire=\frac{rente.RRB+rente.S1}{Salaire2019}
+$$
+où le salaire de 2019 est de 47 465\$.
 
-\vspace {40pt}
+\newpage
 
 ## Question 2 : 
-Dans cette situation, il ne faut pas se tromper et croire que son revenu de la RRQ variera dans le temps, autre que par l’indexation, i.e., la réduction actuarielle ne change pas puisqu’elle a atteint l’âge de 65 ans. Dans le cadre du TP, on considère donc que les rentes du RRQ sont indexées selon l’inflation, donc de 2,75% à chaque année. Les calculs sont donc indentiques à la question 1, à part l'ajout de la rente SRG et PSV. En effet, l'un des critèrespour recevoir la SRG est de recevoir la PSV, qui nécessite d'avoir 65 ans. (On constate à partir des informations données sur Virginie qu'elle remplit tous les autres critères d'admissibilité à la PSV). Dans son cas, elle est également admissible au SRG, car son revenu est considéré comme faible. Les montants pour ces deux rentes sont fixes, mais la rente SRG est susceptible d'être réduite, et les calculs suivants montrent que c'est d'ailleurs le cas.
-
-Le calcul de sa rente S1 est indentique à celui de la question précédente. La seule différence, c'est que Virginie reçoit maintenant la SRG, alors le montant de sa rente du S1 sera utilisé dans le calcul de sa réduction SRG. 
+Dans cette situation, il ne faut pas se tromper et croire que son revenu de la RRQ variera dans le temps, autre que par l’indexation, i.e., la réduction actuarielle ne change pas puisqu’elle a atteint l’âge de 65 ans. Dans le cadre du TP, on considère donc que les rentes du RRQ sont indexées selon l’inflation, donc de 2,75% à chaque année. Pour faire le calcul d'indexation, nous utilisons la formule suivante :
 $$
+MontantIndexé=Montant * (1,0275)^{nombre.Années}
 $$
+Le montant des rentes de la RRQ indexé sur 6 ans est de 9157\$.
 
-Virginie aura donc un remplacement de revenu de retraite de 58% de sa dernière année de salaire. 
+Les calculs sont donc indentiques à la question 1, à part l'ajout de la rente SRG et PSV. En effet, l'un des critères pour recevoir la SRG est de recevoir la PSV, qui nécessite d'avoir 65 ans. (On constate à partir des informations données sur Virginie qu'elle remplit tous les autres critères d'admissibilité à la PSV). Dans son cas, elle est également admissible au SRG, car son revenu est considéré comme faible. Les montants pour ces deux rentes sont fixes, mais la rente SRG est susceptible d'être réduite, et les calculs suivants montrent que c'est d'ailleurs le cas. La réduction qui sera appliquée est de 1\$ pour chaque 2\$ de revenu gagné et cette réduction sera appliquée au montant de la rente maximale pour un célibataire pouvant recevoir la SRG (10779,84 \$ en 2019 et dans notre cas devra être indexé).  Pour notre cas, les seuls revenus sont les rentes de la RRQ et le calcul est comme suit:
+$$
+rente.SRG = RenteMaxSRG.indexé-\frac{(rente.RRBindexée+RenteS1indéxée)-3500}{2}
+$$
+Dans notre situation, le montant de la SRG sera donc de 7236\$. De plus, le montant de rente qu'elle recevra de la PSV indexé est de 8493\$.
+ 
+Virginie aura donc un remplacement de revenu de retraite de 58% de sa dernière année de salaire. Le calcul de remplacement de revenu sera le même qu'à la question 1 excepté qu'on devra ajouté au numérateur le montant de la PSV et de la SRG.
 
 \vspace {40pt}
 
@@ -114,6 +136,7 @@ Dans le cas de notre ami Philippe, il y a plusieurs facteurs à considérer. Les
 Par la suite, on doit considérer le fait que Philippe a été marié à Eliot durant 15 ans, et dans le calcul de la rente du RRQ de quelqu'un étant marié, il y a un ajustement effectué. Malgré que le mariage homosexuel ne soit légal au Canada que depuis 2005, nous considérons que Philippe et Eliot étaient mariés selon la loi, donc que le calcul du RRQ s'applique de façon usuelle. Cet ajustement est simple, on prend les gains admissibles de chacun des conjoints pour l'année X, et on considère que chacun a cotisé la moyenne des deux. À noter que cet ajustement est fait automatiquement dans le cas d'un mariage, sauf avis contraire de l'un des deux mariés. *OU LES DEUX??* Cet ajustement est effectif pour les années d'union uniquement. Ce sont donc les salaires ajustés selon le salaire de Eliot, puis ajusté en dollars d'aujourd'hui (calcul avec les MGA) qui seront utilisés dans le calcul de sa rente.  
 Philippe subira une réduction actuarielle selon le même principe que Virginie, soit 0,55% par mois avant 65 ans, tant pour la RRB que le S1. Tel qu'indiqué, les principes de calculs sont les mêmes que ceux utilisés pour Virginie, tant pour la RRB que le S1 également. Les calculs sont indiqués plus bas.  
 Dans cette situation, il ne faut pas oublier que Philippe a eu la chance d'avoir un régime complémentaire de retraite avec son emploi. Il s'agit d'un régime à prestations déterminées, qui verse une rente de la façon suivante : 1,35% * moyenne des 5 meilleurs salaires annuels * nombre d'années de service. Sa rente n'est pas réduite, car il a travaillé plus de 35 ans pour cet employeur. Les actifs de Philippe ne sont pas considérés ici, car rien n'indique qu'il les vendra ou quoique ce soit. Philippe ne reçoit pas de rente pour la PSV ou le SRG, car il n'a pas 65 ans. À l'atteinte de ses 65 ans, il ne recevra pas de SRG, car son revenu est trop élevé. Les calculs sont les suivants :
+
 $$
 $$
 
