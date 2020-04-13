@@ -95,7 +95,7 @@ Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu.
 3. Dans le même ordre d’idée qu’au point 2, une retraite à 65 ans ajoutera 5 années de salaire à considérer lors du calcul des prestations. Une personne avec un salaire constamment croissant verra donc la moyenne de ses salaires ajustés augmentés si elle travaille jusqu’à 65 ans versus la personne qui se retire à 60 ans. L’inverse est aussi vrai, alors qu’une personne qui opte pour un travail à tâche réduite pour les dernières années de sa carrière peut voir son salaire annuel grandement réduit, ce qui ajouterait des années de petit salaire au calcul de la prestation.  
 4. Finalement, dans le calcul des prestations, on ajuste les salaires antérieurs avec un calcul simple utilisant la moyenne des 5 derniers MGA à l’âge de la retraite. Prendre sa retraite 5 ans plus tard offrira donc une moyenne plus élevée, puisque les MGA sont indexés annuellement. Une retraite plus tard offrira donc un calcul plus avantageux pour le retraité lors de l’ajustement de ses GANA. 
 
-\vspace {40pt}
+\newpage
 
 ## Question 5 :
 1. D’abord, elle n’a pas à remplacer 100% de ses revenus avant retraite, car une partie de ce montant était réservé à l’épargne retraite, donc à sa retraite, elle n’a plus à épargner, c’est le temps de dépenser.  
@@ -106,6 +106,8 @@ Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu.
 \vspace{50 pt}
 
 # Client 2
+
+\vspace{20pt}
 
 ## Question 6
 Dans le cas de notre ami Philippe, il y a plusieurs facteurs à considérer. Les principes de calculs de base pour la RRB et le Régime S1 sont les mêmes que pour Virginie, donc à des fins de simplicité, ils ne seront pas réexprimés. D'abord, Philippe n'a jamais reçu de rentes d'invalidité ou d'autres types semblables, donc les seuls salaires retirés de sa période cotisable seront les 15% des années au plus petit revenu.   
