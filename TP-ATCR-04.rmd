@@ -49,7 +49,7 @@ Hiver 2020
 \newpage
 # Client 1 : 
 ## Question 1 : 
-Dans cette situation, Virginie aura droit à un remplacement de revenu de 17%. Ce montant, qui peut sembler faible, est la somme de la RRB et de la rente issue du régime supplémentaire 1 de la RRQ.  Ce faible montant s'explique par plusieurs facteurs. D'abord, pour établir le niveau de sa rente de base, il faut établir sa période cotisable. Pour faire cela, il faut exclure du calcul les années où elle recevait une allocation familliale et retirer les 15% du total des années restantes qui représentent les années où les revenus étaient les plus faibles. Toutefois, malgré ces retraits, il reste encore certaines années de revenus nuls qui sont comptabilisées dans la moyenne de ses gains ajustés, ce qui fait diminuer cette dernière. Ensuite, Virginie prend sa retraite à 60 ans, donc 60 mois (5 ans) avant l'âge normal de la retraite (65 ans). Cette retraite précaire introduit donc une réduction actuarielle dans le calcul de la rente, ce qui correspond à une réduction de la rente finale de 0,55% par mois. Les calculs sont donc les suivants;
+Dans cette situation, Virginie aura droit à un remplacement de revenu de 17%. Ce montant, qui peut sembler faible, est la somme de la RRB et de la rente issue du régime supplémentaire 1 de la RRQ.  Ce faible montant s'explique par plusieurs facteurs. D'abord, pour établir le niveau de sa rente de base, il faut établir sa période cotisable. Puis, il faut exclure du calcul les années où elle recevait une allocation familliale et retirer les 15% du total des années restantes qui représentent les années où les revenus étaient les plus faibles. Toutefois, malgré ces retraits, il reste encore certaines (deux) années de revenus nuls qui sont comptabilisées dans la moyenne de ses gains ajustés, ce qui fait diminuer cette dernière. Ensuite, Virginie prend sa retraite à 60 ans, donc 60 mois (5 ans) avant l'âge normal de la retraite (65 ans). Cette retraite précaire introduit donc une réduction actuarielle dans le calcul de la rente, ce qui correspond à une réduction de la rente finale de 0,55% par mois. Les calculs sont donc les suivants;
   
 $MGA5$ = Moyenne des MGA des 5 dernières années
 
@@ -69,7 +69,7 @@ Pour notre situation, la $Moyenne$ est de 47 674\$ . Donc, la rente de base de V
 $$
 Salaire.ajusté = (Salaire.non.ajusté) * \frac{MGA}{MGA5}
 $$
-Virginie a eu l'opportunité de cotiser durant une année au régime supplémentaire 1 de la RRQ qui a été introduit en 2019. Ce régime a pour but de remplacer 8,33% de revenu supplémentaire pour les gains sous le MGA. Toutefois, pour éviter une autre inégalité intergénérationnelle, ce régime est proportionnel à la participation du rentier. Une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Puisque Virginie n'a cotisé qu'une année, elle obtiendra 1/40*8,33% de sa moyenne des gains admissibles. De plus, selon le site de Retraite Québec, nous devons ajuster son salaire pour l'année 2019 avec un taux de 0,15. Le calcul est explicité ci-dessous. La réduction actuarielle est appliquée de la même façon que pour le régime de base.
+Virginie a eu l'opportunité de cotiser durant une année au régime supplémentaire 1 de la RRQ qui a été introduit en 2019. Ce régime a pour but de remplacer 8,33% de revenu supplémentaire pour les gains sous le MGA. Toutefois, pour éviter une autre inégalité intergénérationnelle, ce régime est proportionnel à la participation du rentier. Une année de cotisation apporte 1/40 (du 8,33% de remplacement) supplémentaire. Puisque Virginie n'a cotisé qu'une année, elle obtiendra 1/40*8,33% de sa moyenne des gains admissibles. De plus, selon le site de Retraite Québec, nous devons ajuster son salaire pour l'année 2019 avec un taux de 0,15. Ce facteur doit être appliqué, car les taux de cotisation pour les premières années du régime sont inférieurs au 2% (employé + employeur) qui sera en vigueur à partir de 2023. L'augmentation des cotisations est progressive. Comme sa cotisation était inférieure, sa rente doit être réduite par un facteur variant selon les années. Le calcul est explicité ci-dessous. La réduction actuarielle est appliquée de la même façon que pour le régime de base.
 $$
 rente.S1= 0,15 * Salaire.ajusté2019*(1-\frac{0,55*60}{100})*\frac{8,33}{100*40}
 $$
@@ -91,13 +91,13 @@ $$
 où t représente le nombre d'années écoulées depuis la prise de la retraite.
 Le montant des rentes de la RRQ indexé sur 5 ans est de 9157\$.
 
-Les calculs sont donc indentiques à la question 1, à part l'ajout de la PSV et du SRG. En effet, l'un des critères pour recevoir la SRG est de recevoir la PSV. Cette dernière nécessite d'avoir 65 ans. (On constate à partir des informations données sur Virginie qu'elle remplit tous les autres critères d'admissibilité à la PSV). Dans son cas, elle est également admissible au SRG, car son revenu est considéré comme faible. Les montants pour ces deux rentes sont fixes, mais le montant du SRG est susceptible d'être réduit et les calculs suivants montrent que c'est d'ailleurs le cas. La réduction qui sera appliquée au montant reçu de SRG est de 1\$ pour chaque 2\$ de revenu gagné et cette réduction sera appliquée au montant de la rente maximale pour un célibataire pouvant recevoir la SRG (10779,84 \$ en 2019. Dans notre cas, ce montant devra être indexé sur 6 ans.).  Pour notre cas, les seuls revenus affectant le montant du SRG sont les rentes de la RRQ et le calcul est comme suit:
+Les calculs sont donc indentiques à la question 1, à part l'ajout de la PSV et du SRG. En effet, l'un des critères pour recevoir le SRG est de recevoir la PSV. Cette dernière nécessite d'avoir 65 ans. (On constate à partir des informations données sur Virginie qu'elle remplit tous les autres critères d'admissibilité à la PSV). Dans son cas, elle est également admissible au SRG, car son revenu est considéré comme faible. Les montants pour ces deux rentes sont fixes, mais le montant du SRG est susceptible d'être réduit et les calculs suivants montrent que c'est d'ailleurs le cas. La réduction qui sera appliquée au montant reçu de SRG est de 1\$ pour chaque 2\$ de revenu gagné et cette réduction sera appliquée au montant de la rente maximale pour un célibataire pouvant recevoir le SRG (10779,84 \$ en 2019. Dans notre cas, ce montant devra être indexé sur 6 ans.).  Pour notre cas, les seuls revenus affectant le montant du SRG sont les rentes de la RRQ et le calcul est comme suit:
 $$
 rente.SRG = RenteMaxSRG.indexée-\frac{(rente.RRBindexée+RenteS1indéxée)-3500}{2}
 $$
-Dans notre situation, le montant de la SRG sera donc de 9857\$. De plus, le montant de rente qu'elle recevra de la PSV indexée est de 8493\$. Pour obtenir ce montant, il suffit d'indexer le montant fixe de 2019 sur 6 ans. Le calcul est le même que celui effectué plus tôt. La variable "t" représente cette fois le nombre d'années écoulées depuis l'année correspondant au montant fixe utilisé (2019).
+Dans notre situation, le montant du SRG sera donc de 9857\$. De plus, le montant de rente qu'elle recevra de la PSV indexée est de 8493\$. Pour obtenir ce montant, il suffit d'indexer le montant fixe de 2019 sur 6 ans. Le calcul est le même que celui effectué plus tôt. La variable "t" représente cette fois le nombre d'années écoulées depuis l'année correspondant au montant fixe utilisé (2019).
  
-Virginie aura donc un remplacement de revenu de retraite de 58%. Le calcul de remplacement de revenu sera le même qu'à la question 1 excepté qu'on devra ajouter au numérateur le montant de la PSV et de la SRG.
+Virginie aura donc un remplacement de revenu de retraite de 58%. Le calcul de remplacement de revenu sera le même qu'à la question 1 excepté qu'on devra ajouter au numérateur le montant de la PSV et du SRG.
 
 \vspace {40pt}
 
@@ -122,7 +122,7 @@ $$
 
 La rente qu'elle recevra du régime S1 est de 408\$. Les salaires ajustés sont tous de 52 945, car les salaires augmentent avec l'inflation tout comme le MGA.
 
-Pour le calcul de la rente de la SRG, le calcul reste le même que la question 2. La rente de la SRG sera de 7236\$ suite au retrait du 1\$ de rente par 2\$ de revenu.
+Pour le calcul de la rente du SRG, le calcul reste le même que la question 2. La rente du SRG sera de 7236\$ suite au retrait du 1\$ de rente par 2\$ de revenu.
 
 Dans ce cas, Virginie verrait sa rente remplacer 55% de son revenu. Le calcul de remplacement de revenu reste le même qu'à la question 2 mais en utilisant le salaire qu'elle a gagné en 2024 qui est de 54361\$.
 
